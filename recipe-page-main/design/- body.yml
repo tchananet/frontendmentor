@@ -1,0 +1,19 @@
+- body
+    - container
+        - image-header
+        - title
+        - text
+        - preTime
+            - text
+        - ingredient-title
+        - list
+        br
+        - instructions
+        - list
+        br
+        - nutrition
+        - text
+        - table
+
+when content-width = 750, body-width = 1440
+     margin = 350, 730 ,content = 760 margin 680    

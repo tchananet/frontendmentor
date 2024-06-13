@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Recipe page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @font-face {
+      font-family: "Young Serif";
+      src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf');
+      src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+    }
+
+    @font-face {
+      font-family: "Outfit"; 
+      src: url('assets/fonts/outfit/static/Outfit-Regular.ttf') format('truetype');
+    }
+
+    :root {
+      --nutmeg : hsl(14, 45%, 36%);
+      --dark-rapberry : hsl(332, 51%, 32%);
+      --white : hsl(0, 0%, 100%);
+      --rose-white : hsl(330, 100%, 98%);
+      --egg-shell : hsl(30, 54%, 90%);
+      --light-grey : hsl(30, 18%, 87%);
+      --wenge-brown : hsl(30, 10%, 34%);
+      --dark-charcoal : hsl(24, 5%, 18%);
+      --font-size : 16px;
+      font-size: var(--font-size);
+      font-family: 'Outfit', Helvetica, sans-serif;
+    } 
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+ 
+    h1 {
+      color: var(--dark-charcoal);
+    }
+    h2, h4, h1 {
+      font-family: 'Young Serif', Helvetica, sans-serif;
+    }
+    p, li, table {
+      color: var(--wenge-brown);
+    }
+
+    table {
+      width: 100%;
+    }
+
+    body {
+      min-height: 100vh;
+      min-width: 100vw;
+      background-color: var(--egg-shell);
+      justify-content: center;
+      align-content: center;
+      display: flex;
+    }
+
+    .content {
+      background-color: var(--white);
+      justify-self: center;
+      align-content: center;
+      width: 40vw;
+      margin-top : 2em;
+      margin-bottom: 2em;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    @media (max-width:420px) {
+      .content {
+        width: 100vw !important;
+        border-radius: 0px !important;
+        padding-top: 0px;
+        padding-left: 25px;
+        margin:0px;
+        padding-right: 25px;
+      } 
+      body {
+        margin:0px;
+      }
+      .image {
+        border-radius: 0px !important;
+        margin-left: -25px;
+        margin-right: -25px;
+        width: 120% !important;
+        
+      }
+    }
+    
+
+    .image {
+      border-radius: 10px;
+      align-self: center;
+      width: 100%;
+    }
+
+    .prep-container {
+      background-color: var(--rose-white);
+      padding: 1rem;
+      border-radius: 1rem;
+      h5 {
+        color: var(--dark-rapberry);
+        font-size: 1rem;
+        margin  : 0px;
+      }
+      
+      li { 
+        align-items: center;
+      }
+      li::marker {
+        color: var(--dark-rapberry);
+        width: fit-content;
+      }
+      li::before {
+        margin-right: 1rem;
+      }
+      ul {
+        padding-left: 1rem;
+      }
+      li {
+        list-style-type: disc;
+        list-style-position: outside;
+      } 
+    } 
+    tr   {
+      border-bottom: 0.1px solid var(--light-grey);
+    }
+    td {
+      padding-left: 2rem;
+    }
+    table {
+      border-collapse: collapse;
+    }
+    table td:nth-child(2) {
+      font-weight: bold;
+      color: var(--nutmeg);
+      } 
+    tr:last-child {
+      border-bottom: 0px;
+    } 
+
+    li {
+      padding-left: 0.9rem;
+    } 
+    .instructions li::marker {
+      color: var(--nutmeg);
+      font-weight:bold;
+      /* font-family: 'Young Serif', Helvetica, sans-serif; */
+
+    }
+    hr {
+      color: var(--light-grey);
+      border-top: 0px;
+    }
+    
+
+  </style>
+</head>
+<body>
+  <div role="main" class="content">
+    <img class="image" src="assets/images/image-omelette.jpeg" alt="" />
+    <h1>Simple Omelette Recipe</h1>
+
+    <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
+      to perfection, optionally filled with your choice of cheese, vegetables, or meats.
+    </p>
+    <div class="prep-container">
+      <h5>Preparation time</h5>
+      <ul>
+        <li><p><b>Total: </b> Approximately 10 minutes</p></li>
+        <li><p><b>Preparation: </b>5 minutes</p></li>
+        <li><p><b>Cooking: </b>5 minutes</p></li>
+      </ul>
+    </div>
+    <h4>Ingredients</h4>
+    <ul class="list">
+      <li>2-3 large eggs</li>
+      <li>Salt, to taste</li>
+      <li>Pepper, to taste</li>
+      <li>1 tablespoon of butter or oil</li>
+      <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+    </ul>
+    
+    <hr>
+
+    <h4>Instructions</h4>
+    <ol class="instructions">
+      
+        <li>
+          <p>
+            <b>Beat the eggs</b>: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.
+            You can add a tablespoon of water or milk for a fluffier texture.
+        </p>
+        </li>
+      
+        <li> <p>
+          <b>Heat the pan</b>: Place a non-stick frying pan over medium heat and add butter or oil.
+
+        </p></li>
+      
+        <li>
+          <p>
+            <b>Cook the omelette</b>: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure
+          the eggs evenly coat the surface.
+          </p>
+        </li>
+      
+        <li>
+          <p>
+            <b>Add fillings (optional)</b>: When the eggs begin to set at the edges but are still slightly runny in the
+          middle, sprinkle your chosen fillings over one half of the omelette.
+          </p>
+        </li>
+      
+        <li>
+          <p>
+            <b>Fold and serve</b>: As the omelette continues to cook, carefully lift one edge and fold it over the
+          fillings. Let it cook for another minute, then slide it onto a plate.
+          </p>
+        </li>
+      
+        <li><p>
+          <b>Enjoy</b>: Serve hot, with additional salt and pepper if needed.
+        </p></li>
+    </ol>
+    <hr >
+
+    <h4>Nutrition</h4>
+
+    <p>The table below shows nutritional values per serving without the additional fillings.</p>
+
+    <table>
+      <tbody>
+        <tr>
+          <td><p>Calories</p></td>
+          <td>277kcal</td>
+        </tr>
+        <tr>
+          <td><p>Carbs</p></td>
+          <td>0g</td> 
+        </tr>
+        <tr>
+          <td><p>Protein</p></td>
+          <td>20g</td>
+        </tr>
+        <tr>
+          <td><p>Fat</p></td>
+          <td>22g</td>
+        </tr>
+      </tbody>
+    </table>
+  </div> 
+</body>
+</html>
