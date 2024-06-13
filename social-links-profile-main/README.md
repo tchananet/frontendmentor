@@ -25,7 +25,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### Links
 
-- Live Site URL: [https://tchananet.github.io/recipe-page](https://tchananet.github.io/recipe-page)
+- Live Site URL: [https://tchananet.github.io/frontendmentor/social-links-profile-main](https://tchananet.github.io/frontendmentor/social-links-profile-main)
 
 ## My process
 

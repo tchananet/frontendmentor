@@ -25,7 +25,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Live Site URL: [https://tchananet.github.io/recipe-page](https://tchananet.github.io/recipe-page)
+- Live Site URL: [https://tchananet.github.io/frontendmentor/recipe-page-main/](https://tchananet.github.io/frontendmentor/recipe-page-main/)
 
 ## My process
 
