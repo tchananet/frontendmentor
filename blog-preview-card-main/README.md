@@ -25,13 +25,13 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Live Site URL: [https://tchananet.github.io/frontendmentor/social-links-profile-main](https://tchananet.github.io/frontendmentor/social-links-profile-main)
+- Live Site URL: [https://tchananet.github.io/frontendmentor/blog-preview-card-main/](https://tchananet.github.io/frontendmentor/blog-preview-card-main/)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
+- HTML5
 - CSS custom properties
 - CSS Flex
 
@@ -41,12 +41,8 @@ Learned more about clamp() and element aligment
 
 ### Continued development
 
-I had some matching the design as close as possible, espcially with size, padding and margin.
-I had to put the design next to the rendered website and try to match by observing the differences.
+I had some matching the design as close as possible, espcially with font-size, padding and margin. 
 
-### Useful resources
-
-- [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS) - This helped me learn and discover some nice CSS tricks like @media and list-style
 
 ## Author
 
