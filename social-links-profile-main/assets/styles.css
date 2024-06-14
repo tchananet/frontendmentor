@@ -67,6 +67,11 @@
     border:none;
     padding: 14px;
     margin: 8px 0px;
-    font-weight: 600;
+    font-weight: 700;
     border-radius: 0.5em;
   } 
+  button:hover {
+    background-color: var(--green);
+    color: var(--dark-grey);
+
+  }
