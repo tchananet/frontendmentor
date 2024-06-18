@@ -1,0 +1,23 @@
+- body
+    - main
+        - title 1
+        - title 2
+        - subtitle
+        - content
+            - card
+                - title
+                - description
+                - corner-image   
+            - card
+                - title
+                - description
+                - corner-image   
+            - card
+                - title
+                - description
+                - corner-image   
+            - card
+                - title
+                - description
+                - corner-image   
+    - footer
