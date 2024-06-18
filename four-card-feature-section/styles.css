@@ -48,6 +48,9 @@ main {
 h2, h3 {
   font-weight: 600;
 }
+p {
+  font-weight: 200;
+}
 
 
 .title {
@@ -115,7 +118,7 @@ section {
   margin-top: 1em;
   margin-bottom: 3em;
   margin-inline: 1em;
-  box-shadow: 0px 10px 10px 0px var(--grey-blue);
+  box-shadow:  0px 5px 10px -7px var(--blue);
   max-width: 22rem;
   /* box-shadow: 0px 10px 10px 0px var(--grey-blue); */
 }
