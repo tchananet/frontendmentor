@@ -1,0 +1,15 @@
+- body
+- card
+  - picture
+  - body
+    - heading
+    - text
+    - footer
+      - picture
+      - author
+      - date
+      - share_button
+    - share
+      - text
+      - icons
+      - share_button
